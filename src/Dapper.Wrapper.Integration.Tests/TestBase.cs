@@ -27,7 +27,7 @@ namespace Dapper.Wrapper.Integration.Tests
 
             var configuration = builder.Build();
 
-            var connectionString = configuration.GetConnectionString("AdventureWorks2016ConnectionString");
+            var connectionString = configuration.GetConnectionString("AdventureWorks2019ConnectionString");
 
             ServiceCollection = new ServiceCollection();
 
